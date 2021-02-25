@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+    background: #5cdb95;
+}
+h1{
+    align-items: center;
+    text-align: center;
+}
+hr{
+    margin: 30px 0;
+    border: 3px solid #379683;
+}
+.bulb{
+    text-align: center;
+}
+.bulb-btn{
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #05386b;
+    color: #5cdb95;
+    height: 50px;
+    line-height: 50px;
+}
+.bulb-footer{
+    background: #379683;
+    height: 40px;
+    text-align: center;
+}
+.bulb-footer a{
+    text-decoration: none;
+    color: #05386b;
+}

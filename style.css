@@ -39,3 +39,17 @@ hr{
     text-decoration: none;
     color: #05386b;
 }
+.ani-heli{
+    /* transform: scaleX(-1); */
+    margin-left:60%;
+    position: relative;
+    animation-name: heli;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes heli {
+    0%   {right:0px; }
+    50%  {right:60%; }
+    100% {transform: scaleX(-1); right: 20%;}
+  
+  }
